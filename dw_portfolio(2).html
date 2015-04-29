@@ -22,44 +22,24 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body class="grey">
-        <div class="fixed-action-btn right-align">
-            <a class="btn-large red btn-floating" data-pg-collapsed> <i class="large mdi-editor-mode-edit"></i> </a>
-        </div>
-        <a href="#nav-mobile" data-activates="nav-mobile" class="button-collapse left-align flexcolumn hide-on-med-and-up flexcenter flextop blue" style="padding-left:2rem; width:100%; position:fixed; Z-index:999" data-pg-collapsed><i class="mdi-navigation-menu white-text small"></i></a>
-        <div class="blue flexcenter flexrow" style="position:fixed; max-height:3rem; width:100%; z-index:999">
-            <div class="blue container flexrow flexcenter" style="margin-right:0rem; margin-left:0rem">
-                <div class="row flexrow flexend" style="width:100%">
-                    <div class="col s12 m4 l12">
-                        <div class="nav-wrapper flexrow flexcenter hide-on-small-only flexmiddle" style="height:3rem; width:100%;">
-                            <ul class="hide-on-small-only transparent flexrow flexend flexmiddle" style="width:100%; height:3rem; margin-bottom:0; margin-top:0" data-pg-collapsed>
-                                <li class="hide-on-small-only" style="height:3rem;">
-                                    <h4 class="white-text hide-on-small-only left-align" style="line-height:3rem;">dirk@wolthuis.nl</h4>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                                </li>
-                            </ul>
-                        </div>
+        <div class="blue" style="position:fixed; width:100%; z-index:999">
+            <div class="blue flexcenter container flexrow">
+                <div class="row flexrow flexcenter" style="width:100%">
+                    <div class="col s12 m12 l12 flexcolumn">
+                        <h4 class="right-align h4-dw white-text" style="padding-right:23px"><div class="fixed-action-btn right-align" data-pg-collapsed>
+                                <a class="btn-large red btn-floating"> <i class="large mdi-editor-mode-edit"></i> </a>
+                            </div>dirk@wolthuis.nl</h4>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="navbar-container navbar-fixed">
+        <div class="navbar-container navbar-fixed" data-pg-collapsed>
             <nav class="flexrow flexbottom flexcenter" data-nav-status="toggle" style="height:9rem">
                 <div class="container flexrow flexcenter">
                     <div class="row flexrow flexcenter" style="width:100%; ">
-                        <div class="col s12 l12 flexcolumn m12 flexmiddle">
-                            <ul id="nav-mobile" class="side-nav hide-on-med-and-up fixed left-align light-blue" style="width:100%; background-color:@ceruleas;"> 
-                                <li class="logo center-align">                                      
-</li>                                 
-
-                                <li class="bold"> 
-                                    <a href="#" class="waves-effect waves-teal white-text">First Link</a> 
-                                </li>                                 
-
-                                <li class="bold"> 
-                                    <a href="#" class="waves-effect waves-teal white-text">Second Link</a> 
-                                </li>                                                                  
-                            </ul>
+                        <div class="col s12 l12 flexcolumn m12">
                             <h4 style="line-height:0.2; margin-left:1.6rem; font-size:2rem; font-weight:400;" class="white-text">Portfolio van Dirk</h4>
-                            <div class="nav-wrapper flexrow flexcenter flextop" style="height:3.6rem">
+                            <div class="nav-wrapper flexrow flexcenter flextop" style="height:4rem">
                                 <ul class="left hide-on-small-only transparent flexrow in-between" style="width:100%">
                                     <li>
                                         <a href="#">competenties</a>
@@ -79,6 +59,27 @@
                                     <li class="hide-on-small-only">
                                         <a href="#">contact</a>
                                     </li>
+                                </ul>
+                                <ul id="nav-mobile" class="side-nav hide-on-med-and-up light-blue center-align white-text right" style="max-width:100%;">
+                                    <li class="white-text">
+                                        <a href="#" class="waves-effect white-text waves-light">competenties</a>
+                                    </li>
+                                    <li class="bold white-text">
+                                        <a href="#" class="waves-effect white-text waves-light">werk</a>
+                                    </li>
+                                    <li class="bold white-text">
+                                        <a href="#" class="waves-effect white-text waves-light">studie</a>
+                                    </li>
+                                    <li class="bold white-text">
+                                        <a href="#" class="waves-effect white-text waves-light">partners</a>
+                                    </li>
+                                    <li class="bold white-text">
+                                        <a href="#" class="waves-effect waves-light white-text">curriculum</a>
+                                    </li>
+                                    <li class="bold white-text">
+                                        <a href="#" class="waves-effect white-text waves-light">contact</a>
+                                    </li>
+                                    <a href="#" data-activates="nav-mobile" class="button-collapse left-align" data-pg-collapsed><i class="mdi-navigation-menu"></i></a>
                                 </ul>
                             </div>
                         </div>
@@ -231,10 +232,10 @@
                         </div>
                     </div>
                     <div class="col s12 l4 m6">
-                        <div class="card darken-1 medium red z-depth-2" data-pg-collapsed>
+                        <div class="card darken-1 red z-depth-2 flexcolumn medium">
                             <div class="card-image waves-effect red background-image-project1 activator waves-teal">
 </div>
-                            <div class="card-content white flexcolumn flexcenter">
+                            <div class="card-content white flexcolumn">
                                 <div class="align-left">
                                     <span class="card-title">Gameview</span>
                                     <h4>Nintendo</h4>
@@ -449,11 +450,11 @@
             </div>
         </div>
         <div class="section section-up-17rem" style="top:-17rem; z-index:1;">
-            <div class="pg-empty-placeholder row flexcolumn flexcenter" style="height:40rem; ">
-                <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
-                <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
-                <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
-                <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
+            <div class="pg-empty-placeholder row flexcolumn" style="height:40rem; ">
+                <div class="pg-empty-placeholder itemflexend" style="width:5rem;  height:5rem;"></div>
+                <div class="pg-empty-placeholder itemflextop" style="width:5rem;  height:5rem;"></div>
+                <div class="pg-empty-placeholder itemflexcenter" style="width:5rem;  height:5rem;"></div>
+                <div class="pg-empty-placeholder itemflexend" style="width:5rem;  height:5rem;"></div>
             </div>
         </div>
         <footer class="page-footer light-blue">
