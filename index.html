@@ -22,8 +22,8 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body class="grey">
-        <div class="fixed-action-btn right-align" data-pg-collapsed>
-            <a class="btn-large red btn-floating" data-pg-collapsed> <i class="large mdi-editor-mode-edit"></i> </a>
+        <div class="fixed-action-btn right-align">
+            <a class="btn-large red btn-floating"> <i class="fa fa-send fa-2x white-text fa-stack-1x transparent"></i> </a>
         </div>
         <a href="#nav-mobile" data-activates="nav-mobile" class="button-collapse left-align flexcolumn hide-on-med-and-up flexcenter flextop blue" style="padding-left:2rem; width:100%; position:fixed; Z-index:999" data-pg-collapsed><i class="mdi-navigation-menu white-text small"></i></a>
         <div class="blue flexcenter flexrow" style="position:fixed; max-height:3rem; width:100%; z-index:999" data-pg-collapsed>
@@ -46,17 +46,17 @@
                 <div class="container flexrow flexcenter">
                     <div class="row flexrow flexcenter" style="width:100%; ">
                         <div class="col s12 l12 flexcolumn m12 flexmiddle">
-                            <ul id="nav-mobile" class="side-nav hide-on-med-and-up fixed left-align light-blue" style="width:100%; background-color:@ceruleas;"> 
+                            <ul id="nav-mobile" class="side-nav hide-on-med-and-up fixed left-align light-blue" style="width:100%; background-color:@ceruleas;">
                                 <li class="logo center-align">
 </li>
-                                <li class="bold"> 
-                                    <a href="#" class="waves-effect waves-teal white-text">First Link</a> 
+                                <li class="bold">
+                                    <a href="#" class="waves-effect waves-teal white-text">First Link</a>
                                 </li>
-                                <li class="bold"> 
-                                    <a href="#" class="waves-effect waves-teal white-text">Second Link</a> 
+                                <li class="bold" data-pg-collapsed>
+                                    <a href="#" class="waves-effect waves-teal white-text">Second Link</a>
                                 </li>
                             </ul>
-                            <h4 style="line-height:0.2; margin-left:1.6rem; font-size:2rem; font-weight:400;" class="white-text">Portfolio van Dirk</h4>
+                            <h4 style="line-height:0.2; margin-left:1.6rem; font-size:2rem; font-weight:400;" class="white-text" wp-site-name wp-href="url">Portfolio van Dirk</h4>
                             <div class="nav-wrapper flexrow flexcenter flextop" style="height:3.6rem">
                                 <ul class="left hide-on-small-only transparent flexrow in-between" style="width:100%">
                                     <li>
@@ -84,7 +84,7 @@
                 </div>
             </nav>
         </div>
-        <div class="section grey section-overflow-visible flexrow flexcenter" data-pg-collapsed>
+        <div class="section grey section-overflow-visible flexrow flexcenter">
             <div class="row">
                 <div class="container">
                     <div class="flexrow flexcenter" data-pg-name="flexrow">
@@ -144,7 +144,7 @@
                                 <img src="assets/img/icon-creatief.svg" class="responsive-img">
                             </div>
                             <div class="card-image waves-light lochmara card-background-image-crearief flexrow flexcenter flex-vert-bottom">
-                                <div class="caption-transparancy flexrow flexcenter flexmiddle center-text" data-pg-collapsed>
+                                <div class="caption-transparancy flexrow flexcenter flexmiddle center-text">
                                     <p class="white-text">creatief</p>
                                 </div>
                             </div>
@@ -165,10 +165,21 @@
                 </div>
             </div>
         </div>
-        <div class="section section-up-17rem" data-pg-collapsed>
+        <div class="modal-container">
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+</div>
+
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
+        </div>
+        <div class="section section-up-17rem">
             <div class="parallax-container">
                 <div class="parallax">
-                    <img src="file:///Volumes/MINI%20HD/Documents/Wolthuis/paralax1.jpg">
+                    <img src="assets/img/paralax1.jpg" alt="Spanje">
                 </div>
             </div>
         </div>
@@ -301,8 +312,8 @@
 </div>
             </div>
         </div>
-        <div class="section section-up-17rem" data-pg-collapsed>
-            <div class="parallax-container" data-pg-collapsed>
+        <div class="section section-up-17rem">
+            <div class="parallax-container">
                 <div class="parallax">
                     <img src="assets/img/DSC00964.jpg">
                 </div>
@@ -452,21 +463,10 @@
                 <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
                 <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
                 <div class="pg-empty-placeholder" style="width:5rem;  height:5rem;"></div>
-                <div class="modal-container">
-                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
-                    <div id="modal1" class="modal">
-                        <div class="video-container">
-                            <iframe width="853" height="480" src="www.youtube.com/embed/IEY2LWeiJ1g" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <footer class="page-footer light-blue">
-            <div class="container light-blue" data-pg-collapsed>
+            <div class="container light-blue">
                 <div class="row">
                     <div class="col l6 s12">
                         <h5 class="white-text">Footer Content</h5>
